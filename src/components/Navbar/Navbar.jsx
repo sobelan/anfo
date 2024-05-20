@@ -24,8 +24,8 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className={`navbar-collapse ${navToggle ? 'show-navbar-collapse' : ""}`}>
-                     <div className='navbar-collapse-content'>
+                {/* <div className={`navbar-collapse ${navToggle ? 'show-navbar-collapse' : ""}`}> */}
+                    {/* <div className='navbar-collapse-content'>
                         <ul className='navbar-nav'>
                             <li className='text-white'>
                                 <Link to = "/">Amenities</Link>
@@ -39,8 +39,8 @@ const Navbar = () => {
                             <li className='text-white'>
                                 <Link to = "/">Contacts</Link>
                             </li>
-                        </ul>
-                        { <ul className='navbar-social flex'>
+                        </ul> */}
+                        {/* <ul className='navbar-social flex'>
                             <li className='text-white'>
                                 <Link to = "" className='flex flex-center'><FaTwitter /></Link>
                             </li>
@@ -50,12 +50,12 @@ const Navbar = () => {
                             <li className='text-white'>
                                 <Link to = "" className='flex flex-center'><FaVimeoV /></Link>
                             </li>
-                        </ul> }
+                        </ul> */}
                         {/* <div className='navbar-btns'>
-                            <button type = "button" className='btn'><IoMdRocket /> <span>Message</span></button>
+                            <button type = "button" className='btn'><IoMdRocket /> <span>REGISTER INTEREST</span></button>
                         </div> */}
-                    </div>
-                </div> 
+                    {/* </div> */}
+                {/* </div> */}
             </div>
         </div>
     </nav>
