@@ -1,6 +1,6 @@
 {
-  "homepage": "http://sobelan.github.io/",
-  "name": "solnhub",
+  "homepage": "http://sobelan.github.io/anfo/",
+  "name": "anfo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
