@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className='container'>
             <div className='portfolio-content'>
                 <div className='section-t text-center'>
-                    <h3>Our Area</h3>
+                    <h3>In Our Area</h3>
                     <p className='text'> Hypermarket, School, and Resort within less than 15 minutes distance. </p>
                 </div>
 
