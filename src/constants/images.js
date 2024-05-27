@@ -14,6 +14,8 @@ import portfolio_img_1 from "../assets/images/portfolio_img_1.jpg";
 import portfolio_img_2 from "../assets/images/portfolio_img_2.jpg";
 import portfolio_img_3 from "../assets/images/portfolio_img_3.jpg";
 
-const images = {header_main_img, about_main_img, form_main_img, professionals_main_img, video_cover_img, customer_img_1, customer_img_2, customer_img_3, customer_img_4, customer_img_5, customer_img_6, portfolio_img_1, portfolio_img_2, portfolio_img_3};
+import logo_img from "../assets/images/logo_img.png";
+
+const images = {logo_img, header_main_img, about_main_img, form_main_img, professionals_main_img, video_cover_img, customer_img_1, customer_img_2, customer_img_3, customer_img_4, customer_img_5, customer_img_6, portfolio_img_1, portfolio_img_2, portfolio_img_3};
 
 export default images;

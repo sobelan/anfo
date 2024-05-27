@@ -9,6 +9,10 @@
 .navbar-brand{
     color: var(--clr-white);
 }
+.logo{
+    height: 76px;
+    width: 174px;
+}
 .hamburger-menu{
     display: flex;
     flex-direction: column;
