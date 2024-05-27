@@ -8,12 +8,12 @@ const Services = () => {
     <section className='services section-p bg-black' id = "services">
         <div className='container'>
             <div className='services-content'>
-                <svg width = "1em" height = "1em">
+            <svg width = "1em" height = "1em">
                     <linearGradient id = "blue-gradient" x1 = "100%" y1 = "100%" x2 = "0%" y2 = "0%">
                         <stop stopColor = "#55b3d5" offset="0%" />
                         <stop stopColor = "#5764de" offset = "100%" />
                     </linearGradient>
-                </svg>
+                </svg>   
 
                 <div className='item-list grid text-white text-center'>
                     {

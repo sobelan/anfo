@@ -10,7 +10,7 @@ import { GiLaptop } from "react-icons/gi";
 
 
 
-const gradient = "url(#blue-gradient)" ;
+const gradient = "url(#white-gradient)" ;
 
 const services = [
     {
@@ -61,7 +61,7 @@ const about = [
 const qualities = [
     {
         id: 8,
-        icon: <FaFileAlt style = {{ fill: gradient }} />,
+        icon: <FaFileAlt color = "white" />,
         title: "Ideas & Plans",
         text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
     },
@@ -169,20 +169,20 @@ const testimonials = [
 const contact = [
     {
         id: 25,
-        icon: <FaPhoneAlt style = {{ fill: gradient }} />,
+        icon: <FaPhoneAlt color = "white"  />,
         info: "+251944101519",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 26,
-        icon: <FaEnvelopeOpen style = {{ fill: gradient }} />,
+        icon: <FaEnvelopeOpen color = "white" />,
         info: "sobelan@gmail.com",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 27,
-        icon: <FaMapMarkerAlt style = {{ fill: gradient }} />,
-        info: "Kolfe Keranio, Addis Ababa, Ethiopia",
+        icon: <FaMapMarkerAlt color = "white" />,
+        info: "Sobelan Buisness Center 6th floor, Mehal Merkato, Addis Ababa",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     }
 ]
