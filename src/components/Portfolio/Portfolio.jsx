@@ -9,7 +9,7 @@ const Portfolio = () => {
             <div className='portfolio-content'>
                 <div className='section-t text-center'>
                     <h3>In Our Area</h3>
-                    <p className='text'> Hypermarket, School, and Resort within less than 15 minutes distance. </p>
+                    <p className='text'> a Hypermarket, an International School, and a Resort within less than 15 minutes distance. </p>
                 </div>
 
                 <div className='item-list text-center text-white grid'>
