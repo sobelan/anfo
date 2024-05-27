@@ -13,8 +13,8 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgb(87, 100, 222);
-    background: linear-gradient(45deg, rgba(87, 100, 222, 0.6) 0%, rgba(85, 179, 213, 0.7) 100%);
+    background: rgba(92, 92, 92, 0.13);
+    background: linear-gradient(45deg, rgba(119, 119, 119, 0.13) 0%, rgba(255, 255, 255, 0.253) 100%);
     left: 0;
     top: 0;
 }
