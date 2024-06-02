@@ -3,14 +3,14 @@
     row-gap: 30px;
 }
 .listings .item{
-    padding: 0px 0px;
+    padding: 100px 10px;
     position: relative;
     transition: var(--transition);
 }
 .listings .item::after{
     position: absolute;
     content: "";
-    bottom: 0;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     width: 0%;
@@ -37,7 +37,7 @@
     margin-top: 0px;
 }
 .listings .item-rating li{
-    margin: 0 0px;
+    margin: 0px 0px;
 }
 
 @media screen and (min-width: 768px){

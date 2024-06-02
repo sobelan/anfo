@@ -170,19 +170,19 @@ const listings = [
     {
         id: 19,
         name: "Type A: 60 sq.m.",
-        text: "CEO & Owner",
+        text: "1 bedroom/ 1 toilet",
         image: images.listing_img_2,
     },
     {
         id: 20,
         name: "Type B: 100 sq.m.",
-        text: "COO",
+        text: "2 bedroom/ 1 toilet/ 1 maid's room",
         image: images.listing_img_4,
     },
     {
         id: 21,
         name: "Type C: 200 sq.m.",
-        text: "Executive Director",
+        text: "3 bedroom/ 2 toilets/ 1 maid's room",
         image: images.listing_img_2,
     }
    
