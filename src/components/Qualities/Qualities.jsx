@@ -8,9 +8,9 @@ const Qualities = () => {
     <section className='qualities section-p bg-md-black' id = "qualities">
         <div className='container'>
             <div className='qualities-content grid'>
-                <div className='content-left'>
+                <div className='content-right'>
                     <div className='section-t text-center'>
-                        <h3>We are Professionals</h3>
+                        <h3>Explore Properties </h3>
                         <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptates deserunt, molestiae soluta cumque eum.</p>
                     </div>
 
@@ -23,7 +23,7 @@ const Qualities = () => {
                                             {quality.icon}
                                         </div>
                                         <div className='item-text'>
-                                            <h3 className='item-title fs-25'>Ideas & Plans</h3>
+                                            <h3 className='item-title fs-25'>Floor Area 60</h3>
                                             <p className='text'>{quality.text}</p>
                                         </div>
                                     </div>
@@ -33,7 +33,7 @@ const Qualities = () => {
                     </div>
                 </div>
 
-                <div className='content-right'>
+                <div className='content-left'>
                     <img src = {images.professionals_main_img} alt = "" />
                 </div>
             </div>

@@ -164,7 +164,29 @@ const testimonials = [
         text: "Accountant",
         image: images.customer_img_6,
     }
-]
+];
+
+const listings = [
+    {
+        id: 19,
+        name: "Type A: 60 sq.m.",
+        text: "CEO & Owner",
+        image: images.listing_img_2,
+    },
+    {
+        id: 20,
+        name: "Type B: 100 sq.m.",
+        text: "COO",
+        image: images.listing_img_4,
+    },
+    {
+        id: 21,
+        name: "Type C: 200 sq.m.",
+        text: "Executive Director",
+        image: images.listing_img_2,
+    }
+   
+];
 
 const contact = [
     {
@@ -187,6 +209,6 @@ const contact = [
     }
 ]
 
-const sections = {services, about, qualities, features, portfolio, testimonials, contact};
+const sections = {services, about, qualities, features, portfolio, testimonials, listings, contact};
 
 export default sections;

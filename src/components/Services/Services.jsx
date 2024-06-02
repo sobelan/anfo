@@ -14,7 +14,10 @@ const Services = () => {
                         <stop stopColor = "#5764de" offset = "100%" />
                     </linearGradient>
                 </svg>   
-
+                <div className='section-t text-center'>
+                    <h3>Facilities</h3>
+                    <p className='text'>a Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias voluptatum, tempore dignissimos perferendis ea.</p>
+                </div>
                 <div className='item-list grid text-white text-center'>
                     {
                         sections.services.map(service => {

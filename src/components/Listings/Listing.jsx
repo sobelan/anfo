@@ -1,11 +1,11 @@
 import React from 'react';
-import "./Testimonials.css";
+import "./Listing.css";
 import sections from '../../constants/data';
 import {MdStar} from "react-icons/md";
 
 const gradient = "url(#blue-gradient)";
 
-const Testimonials = () => {
+const Listing = () => {
 
     let startList;
     const showRating = (starCount) => {
@@ -17,25 +17,25 @@ const Testimonials = () => {
     }
 
   return (
-    <section className='testimonials section-p bg-black' id = "testimonials">
+    <section className='listings section-p bg-md-black' id = "listings">
         <div className='container'>
-            <div className='testimonials-content'>
+            <div className='listings-content'>
                 <div className='section-t text-center'>
-                    <h3>Our Team</h3>
+                    <h3>Explore Properties</h3>
                     <p className='text'>a Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias voluptatum, tempore dignissimos perferendis ea.</p>
                 </div>
 
                 <div className='item-list grid text-white text-center'>
                     {
-                        sections.testimonials.map(testimonial => {
-                            showRating(testimonial.rating);
+                        sections.listings.map(listing => {
+                            showRating(listing.rating);
                             return (
-                                <div className='item translate-effect bg-dark' key = {testimonial.id}>
+                                <div className='item translate-effect bg-dark' key = {listing.id}>
                                     <div className='item-img'>
-                                        <img src = {testimonial.image} alt = "" />
+                                        <img src = {listing.image} alt = "" />
                                     </div>
-                                    <h4 className='item-name'>{testimonial.name}</h4>
-                                    <p className='item-text text'>{testimonial.text}</p>
+                                    <h4 className='item-name'>{listing.name}</h4>
+                                    <p className='item-text text'>{listing.text}</p>
                                     <ul className='flex item-rating flex-center'>
                                         {
                                             startList.map((star, index) => {
@@ -56,4 +56,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Listing

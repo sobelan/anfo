@@ -11,13 +11,15 @@ import Footer from './components/Footer/Footer';
 // import Qualities from './components/Qualities/Qualities';
 import Info from './components/Contact/Info';
 import Map from './components/Contact/Map';
+import Listings from './components/Listings/Listing';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       {/* <Qualities /> */}
       {/* <Features /> */}
-      <Header />
+      <Listings />
       <Services />
       <Portfolio />
       <About />
